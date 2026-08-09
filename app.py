@@ -11,7 +11,7 @@ from tracker import (
 )
 
 app = Flask(__name__)
-
+start_tracker()
 
 def snapshot():
     with data_lock:
